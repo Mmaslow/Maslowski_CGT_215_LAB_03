@@ -21,15 +21,19 @@ void getChoices(float& A, float& B) {
 }
 void firstChoice(float A, float B) {
 	cout << A << " + " << B << " = " << A + B << endl;
+	//Completes Addition function
 }
 void secondChoice(float A, float B) {
 	cout << A << " - " << B << " = " << A - B << endl;
+	//Completes Subtraction function
 }
 void thirdChoice(float A, float B) {
 	cout << A << " * " << B << " = " << A * B << endl;
+	//Completes Multiplication function
 }
 void fourthChoice(float A, float B) {
 	cout << A <<" / "<< B << " = " << A / B << endl;
+	//Completes Division function
 }
 int main() {
 	int choice;
